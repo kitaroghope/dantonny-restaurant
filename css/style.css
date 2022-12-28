@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../src/images/bgImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    min-height: 590px;
+}
+/*Heading section begins here*/
+.header{
+    line-height: 80px;
+    background: rgba(0, 0, 0,.7);
+    width: 100%;
+    margin: 0;
+
+    border-radius: 0 0 5px 5px;
+}
+.menu{
+    float: right;
+    font-size: medium;
+}
+.menu a{
+    text-decoration: none;
+    padding: 5px;
+}
+.menu a:hover,.menu a.active{
+    background: rgb(2, 29, 2);
+}
+
+/* Start of body or salutaion  */
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: rgba(0, 0, 0,.7);
+    height: calc(100vh - 90px);
+    min-height: 500px;
+    flex-wrap: wrap;
+}
+.welcome .card{
+    margin: 0 5px 5px 5px;
+}
